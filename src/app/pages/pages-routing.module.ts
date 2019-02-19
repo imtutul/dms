@@ -22,6 +22,9 @@ const routes: Routes = [{
     path: 'modal-overlays',
     loadChildren: './modal-overlays/modal-overlays.module#ModalOverlaysModule',
   }, {
+    path: 'setting',
+    loadChildren: './setting/setting.module#SettingModule',
+  }, {
     path: 'extra-components',
     loadChildren: './extra-components/extra-components.module#ExtraComponentsModule',
   }, {

@@ -17,6 +17,16 @@ export const MENU_ITEMS: NbMenuItem[] = [
     group: true,
   },
   {
+    title: 'Setting',
+    icon: 'nb-gear',
+    children: [
+      {
+        title: 'Product category',
+        link: '/pages/setting/product-category',
+      },
+    ],
+  },
+  {
     title: 'Extra Components',
     icon: 'nb-star',
     children: [
